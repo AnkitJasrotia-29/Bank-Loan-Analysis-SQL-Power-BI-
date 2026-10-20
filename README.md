@@ -1,8 +1,8 @@
-# Bank Loan Analysis Dashboard
+# 📉 Bank Loan Analysis Dashboard
 
 A Power BI dashboard built on 38,576 bank loan records. It shows how much money the bank lends, how much it gets back, and which loans end up going bad.
 
-## About the project
+## 📝 About the project
 
 Banks lend a lot of money, and a small share of loans always goes unpaid. The question is how big that share is and where it comes from. This dashboard answers the basics: how many loans were issued, how much was funded, how much has come back, and how good loans compare with bad ones.
 
@@ -10,7 +10,8 @@ The SQL queries used to get the numbers are in `Sql_Query_Doc.docx`. The Power B
 
 **Who it's for:** anyone reviewing loan performance, such as bank analysts, risk teams, or a hiring manager looking at my portfolio.
 
-## Dataset
+
+## 🗂️ Dataset
 
 The data is in `Bank_loan.csv`: 38,576 loans and 24 columns.
 
@@ -21,7 +22,7 @@ The data is in `Bank_loan.csv`: 38,576 loans and 24 columns.
 | Dates | `issue_date`, `last_credit_pull_date`, `last_payment_date`, `next_payment_date` |
 | Payments | `total_payment`, `total_acc` |
 
-## Tools used
+## 🛠️ Tools used
 
 - **SQL**: KPI and chart queries
 - **Excel**: source data
@@ -35,7 +36,7 @@ The data is in `Bank_loan.csv`: 38,576 loans and 24 columns.
 - **MTD:** December, the latest month in the data
 - **MoM:** December compared with November
 
-## What's in the dashboard
+## 🔍 What's in the dashboard
 
 The report has three pages. Each page has filters for State, Grade, and Purpose.
 
@@ -54,7 +55,7 @@ The report has three pages. Each page has filters for State, Grade, and Purpose.
 - Loan-level records for checking individual loans
 
 
-## What the data shows
+## 🎯 What the data shows
 
 **Overall**
 - 38.6K loan applications, $435.8M funded, $473.1M received
@@ -76,16 +77,19 @@ The report has three pages. Each page has filters for State, Grade, and Purpose.
 - California stands out on the state map
 
 
-## What I learned
+## ✅ What I learned
 
 - Writing KPI logic in SQL first makes it easy to check the Power BI numbers.
 - MTD and MoM measures need a clear definition of "latest month", otherwise the comparison is wrong.
 - A single good/bad flag is enough to turn raw loan statuses into something a manager can read at a glance.
 
-## Contact
+
+## 👤 Author & Contact
 
 **Ankit Jasrotia**
 
-- LinkedIn: [ankit-jasrotia-245b0937b](https://www.linkedin.com/in/ankit-jasrotia-245b0937b)
-- GitHub: [AnkitJasrotia-29](https://github.com/AnkitJasrotia-29)
-- Email: [ankitjasrotia767@gmail.com](mailto:ankitjasrotia767@gmail.com)
+- 💼 LinkedIn: [ankit-jasrotia-245b0937b](https://www.linkedin.com/in/ankit-jasrotia-245b0937b)
+- 🐙 GitHub: [AnkitJasrotia-29](https://github.com/AnkitJasrotia-29)
+- 📧 Email: [ankitjasrotia767@gmail.com](mailto:ankitjasrotia767@gmail.com)
+
+ ⭐ If you found this project useful, please consider giving it a star!
